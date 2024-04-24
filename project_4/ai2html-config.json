@@ -1,0 +1,34 @@
+{	
+	"fonts": [
+        {
+            "aifont": "SourceSerifRoman-Bold",
+            "family": "Source Serif Pro",
+            "weight": "700",
+            "style": ""
+        },
+        {
+            "aifont": "SourceSerifVariable-Roman",
+            "family": "Source Serif Pro",
+            "weight": "400",
+            "style": ""
+        },
+        {
+            "aifont": "Helvetica",
+            "family": "Helvetica",
+            "weight": "400",
+            "style": ""
+        },
+        {
+            "aifont": "Helvetica-Bold",
+            "family": "Helvetica",
+            "weight": "700",
+            "style": ""
+        },
+        {
+            "aifont": "Helvetica-LightOblique",
+            "family": "Helvetica",
+            "weight": "300",
+            "style": ""
+        },
+    ]
+}
