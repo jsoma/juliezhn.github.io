@@ -23,23 +23,45 @@
     }
 
     .title.is-1 {
-      font-size: 150px !important;
+      font-size: 90px !important;
       color: #000000 !important;
     }
 
     .subtitle.is-2 {
-      font-size: 70px !important;
-      color: #000000 !important;
-    }
-
-    .subtitle.is-3 {
       font-size: 40px !important;
       color: #000000 !important;
     }
 
-    .subtitle.is-4 {
+    .subtitle.is-3 {
       font-size: 30px !important;
       color: #000000 !important;
+    }
+
+    .subtitle.is-4 {
+      font-size: 20px !important;
+      color: #060303 !important;
+    }
+
+    /* Custom CSS for responsive text */
+    @media screen and (max-width: 768px) {
+      .responsive-text {
+        font-size: 1.2rem;
+        /* Adjust the font size for smaller screens */
+      }
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+      .responsive-text {
+        font-size: 1.4rem;
+        /* Adjust the font size for medium screens */
+      }
+    }
+
+    @media screen and (min-width: 1025px) {
+      .responsive-text {
+        font-size: 1.6rem;
+        /* Adjust the font size for larger screens */
+      }
     }
   </style>
   <title>Julie Zhu's Portfolio </title>
@@ -48,24 +70,24 @@
 
 
 <body>
-  <section class="hero is-large">
+  <section class="hero is-large mr-8">
     <div class="container">
       <div class="hero-body">
         <div class="columns">
-          <div class="column is-one-third">
+          <div class="column is-one-third m-6">
             <figure class="image is-256x256">
               <img class="is-rounded" src="image/Zhu.jpg" alt="Julie Zhu" style="max-width: 100%;" />
             </figure>
           </div>
-          <div class="column is-full">
-            <h1 class="title is-1">Hi! I am Julie Zhu. </h1>
-            <p class="subtitle is-2">
+          <div class="column is-two-thirds">
+            <h1 class="title is-1 responsive-text">Hi! I am Julie Zhu. </h1>
+            <p class="subtitle is-2 responsive-text">
               I am a data journalism student at Columbia University.
             </p>
-            <p class="subtitle is-2">
-              I tell stories with data 💰💹🚀 and graphics💸📈📊. I am also a dancer 💃🎶🪭 and a foodie 🍇🍗🍤🍣!
-              You can contact me at
-              <a href='mailto:hz2917@columbia.edu'>hz2917@columbia.edu</a>.
+            <p class="subtitle is-2 responsive-text">
+              I tell stories with data 💰💹🚀 and graphics💸📈📊. I am also a feminist 👩👨🏼🧕, a dancer 💃🎶🪭 and a big foodie 🍇🍗🍤🍣!</p>
+            <p class="subtitle is-2 responsive-text">
+              You can contact me at <a href='mailto:hz2917@columbia.edu'>hz2917@columbia.edu</a>.
             </p>
           </div>
         </div>
@@ -75,16 +97,17 @@
   <section class="section">
     <div class="column is-full">
       <p class="subtitle is-3 has-text-weight-bold">
-        These projects are from my Fall 2023 and Spring 2024 semesters.
+        These projects are from my Fall 2023 and Spring 2024 semesters at Columbia University. </p>
+      <p class="subtitle is-3 has-text-weight-bold">
         I used Python, R, BeautifulSoup, Pandas, Playwright, ggplot, matplotlib, SQL, DataWrapper, Inky, and Adobe
-        Illustrator
-        to tell various stories with data and graphics in beats of education, criminal justice, business, social
+        Illustrator to tell various stories with data and graphics in beats of education, criminal justice, business,
+        social
         inequality, culture, environment, transportation, and health.
       </p>
     </div>
 
 
-    <div class="columns is-multiline content">
+    <div class="columns is-multiline content p-6">
       <div class="column is-one-third">
         <div class="card">
           <div class="card-image">
@@ -308,7 +331,8 @@
             <div class="media">
               <div class="media-content">
                 <h3 class="subtitle is-3 has-text-weight-bold">
-                  <a href='https://juliezhn.github.io/julie-name/'>Unraveling Dropout Dynamics in New York City Education 📚👨🏻‍🎓👩🏽‍🎓</a>
+                  <a href='https://juliezhn.github.io/julie-name/'>Unraveling Dropout Dynamics in New York City
+                    Education 📚👨🏻‍🎓👩🏽‍🎓</a>
                 </h3>
               </div>
             </div>
